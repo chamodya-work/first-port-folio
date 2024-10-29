@@ -1,0 +1,128 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style >
+    body{
+        background-image: url(back.jpg);
+        background-attachment: fixed;
+    }
+    div.pp{
+        height: 50px;;
+        width: auto;
+    }
+     body h1{
+        text-align: center;
+        color: rgb(182, 211, 54);
+     }
+
+        body {
+            font-family: 'Arial', sans-serif;
+        }
+
+        .navbar {
+            display: flex;
+            position: sticky;
+            align-items: center;
+            justify-content: space-between;
+            top: 0px;
+            background: rgb(35, 100, 79);
+            background-blend-mode: darken;
+            background-size: cover;
+            color: white;
+            padding: 10px 20px;
+        }
+
+        .nav-list {
+            display: flex;
+            list-style: none;
+        }
+
+        .nav-list li {
+            margin-right: 20px;
+        }
+
+        .nav-list li:last-child {
+            margin-right: 0;
+        }
+
+        .nav-list li a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            transition: color 0.3s ease-in-out;
+        }
+
+        .nav-list li a:hover {
+            color: #1aa739;
+            /* Change the color on hover */
+        }
+
+        .rightNav {
+            text-align: right;
+        }
+
+        #search {
+            padding: 8px;
+            font-size: 16px;
+            border: 2px solid #fff;
+            border-radius: 5px;
+        }
+
+        .btn {
+            background-color: #ffd700;
+            color: #000;
+            border: none;
+            padding: 8px 12px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        .btn:hover {
+            background-color: #000;
+            /* Change the background color on hover */
+            color: #ffd700;
+        }
+</style>
+<body>
+    <h1 >WELOCOME TO PORTFOLIO</h1>
+    <div class="one">
+        <P><h3>Hello</h3><h4>I'm Chamodya Rajapaksha.who wokrk as a software engineer also Software engineers create solutions for users. In order to design effective software, engineers must understand user requirements and familiarize themselves with the user's industry. Additionally, while some organizations have dedicated personnel for gathering user requirements, smaller companies may require their software engineers to perform this function</h4></P>
+    </div>
+    <div class="pp" ><img src="pp.png" alt="profile picture"></div>
+    <div class="two" >
+        <h3>SKILL & STRENGTHS</h3>
+        <ul>
+            <li>Hard Skills
+            <li>Soft Skills
+                <li>Interpersonal and personal traits
+                    <li>Communication, Leadership, Problem-solving</li>
+                </li>
+            </li>
+            <li>Soft Skills
+                <li>Interpersonal and personal traits
+                    <li>Communication, Leadership, Problem-solving</li>
+                </li>
+            </li>
+        </ul>
+    </div>
+    <br><br><br><br><br><br><br><br><br>
+    <h2>Contact Me:</h2>
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li><a href="#home">Facebook</a></li>
+            <li><a href="#about">WhatsApp</a></li>
+            <li><a href="#services">Instagram</a></li>
+            <li><a href="#contact">linkedln</a></li>
+        </ul>
+        <div class="rightNav">
+            <input type="text" name="search" id="search" placeholder="Search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+    </nav>
+
+</body>
+</html>
